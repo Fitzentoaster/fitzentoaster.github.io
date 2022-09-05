@@ -1,140 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <title>MoodTracky by Jake Fitzenreider</title>
-</head>
-
-<body>
-    
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <title>MoodTracky by Jake Fitzenreider</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html#splash">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html#about">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html#projects">Projects</a>
-                </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html#splash">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html#about">About Me</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html#projects">Projects</a>
+               </li>
             </ul>
-        </div>
-    </nav>
-
-    <div class="d-flex align-items-center bg-light text-dark rounded border-bottom" id="top">
-        <div class="container-fluid justify-content-around">
+         </div>
+      </nav>
+      <div class="d-flex align-items-center bg-light text-dark rounded border-bottom" id="top">
+         <div class="container-fluid justify-content-around">
             <p class="display-1 text-center">Mood Tracky</p>
             <p class="display-3 text-center">A Mood Tracking WebApp</p>
             <p class="display-4 text-center">in Python/Flask</p>
-            
-        </div>
-    </div>
-
-        
-    <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="overview">
-        
-        <div class="col-sm my-auto">
-            <a href="moodtrackyloginscreen.png" target="_blank">
-                <img class="img-fluid" src="moodtrackyloginthumb.png">
-            </a>
-        </div>
-
-        <div class="col-sm my-auto">
-            <p class="text-center lead"><b>MoodTracky</b> is an easy-to-use, fully-featured mood and medication tracking app</p>
-            <p class="text-center">Track your daily depressive, manic, and anxiety symptoms along with medication compliance</p>
-            <p class="text-center"><b>All in one simple app.</b></p>
-            <p class="text-center">View your mood history in a simple color-coded summary page.</p>
-            <p class="text-center">Observe your data in two-week increments with graphs in web and printable PDF form</p>
-               
-        </div>
-    </div>
-
-    <div class="row d-flex bg-dark text-light rounded justify-content-between py-3 mx-0 text-center" id="codeinfo">
-        
-        
-        <div class="col-sm my-auto">
-            <p class="text-center lead"><b>MoodTracky</b> was coded in Python using the Flask framework</p>
-            <p class="text-center"><b>HTML with Bootsrap 4 and Jinja</b> was used for the design and templates</p>
-            <p class="text-center"><b>SQLite</b> provided the database backend</p> 
-            <p class="text-center"><b>MatPlotLib</b> provided the capacity for graphically charting user-data</p>                   
-        </div>
-        <div class="col-sm my-auto">
-            <a href="moodtrackysummaryscreen.png" target="_blank">
-                <img class="img-fluid" src="moodtrackysummarythumb.png">
-            </a>
-        </div>
-        
-    </div>
-
-    <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="featurelist">
-        
-        <div class="col-sm my-auto">
-            <a href="moodtrackyreportscreen.png" target="_blank">
-                <img class="img-fluid" src="moodtrackyreportthumb.png">
-            </a>
-        </div>
-        <div class="col-sm my-auto">
-            <p class="text-center lead"><b>MoodTracky feature-list:</b></p>
-            <ul class="list text-left">
-                <li>Daily Tracking of any combination of mania, depression, anxiety, and medication compliance</li>
-                <li>User account management with personalized settings, e-mail verification, and lost password functionality</li>
-                <li>Survey for severity of depression, mania, and anxiety</li>
-                <li>Capability to graph user mood data and view on the web or download printable PDF</li>
-                <li>Display Affirmations from annthurium/affirmations API</li>
-            </ul>
-               
-        </div>
-    </div>
-
-    <div class="row d-flex bg-dark text-light rounded justify-content-between rounded py-3 mx-0 text-center" style="background: url(womansunflowersblurry.jpg) no-repeat;" id="youtubevideo">
-        <div class="col my-auto">
-            <figure>
-                <div class="embed-responsive embed-responsive-16by9 mx-auto w-75">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0N3ELCgP2cc" allowfullscreen></iframe>
-                    <figcaption>YouTube Demonstration Video</figcaption>
-                </div>
-            </figure>
-        </div>
-    </div>
-
-    <div class="row d-flex justify-content-center">
-        <div class="container-fluid bg-light text-dark rounded py-3 mx-0 px-5 justify-content-center" id="reflection">
-            
-            <p class="text-center lead"><b><u>Reflection</u></b></p>
-            <p class="text-center">As of 2020, MoodTracky is my largest, most advanced project, and the one I'm most proud of.
-            Development/support is still ongoing. The site is live, deployed to PythonAnywhere, and I greatly enjoy providing the service to people.
-            I learned an awful lot through developing MoodTracky, not just about Python and Flask, but about how to manage user accounts and data
-            including authentication, password handling/hashing, automating email (using the service SendGrid) and mostly how to present
-            a polished service to the public.</p>
-            <p class="text-center">I was the first registered user of MoodTracky and I still use it daily (well, almost daily!) myself
-            to help manage my own mental health. I designed it first and foremost because I personally found most mood-tracking options
-            to be long on features and short on ease-of-use. My own needs informed much of the early decision-making and design decisions.</p>
-            <p class="text-center">For now I'm comfortable with MoodTracky being utilized primarily by friends, family, and a smattering
-            of users that have trickled in from the web. Moving forward, as MoodTracky evolves, I'd like to branch out into promoting
-            the brand and the service, trying to gather a more robust userbase.</p>
-        </div>
-
-    </div>
-    
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-</body>
-<footer class="bg-light text-center text-sm font-weight-light">
-    © 2022 website and all content created by Jake Fitzenreider<br>
-    All projects described are the work solely of Jake Fitzenreider unless otherwise noted<br>
-</footer>
-
-
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="overview">
+            <div class="col-sm my-auto">
+               <a href="moodtrackyloginscreen.png" target="_blank">
+               <img class="img-fluid" src="moodtrackyloginthumb.png">
+               </a>
+            </div>
+            <div class="col-sm my-auto">
+               <p class="text-center lead"><b>MoodTracky</b> is an easy-to-use, fully-featured mood and medication tracking app</p>
+               <p class="text-center">Track your daily depressive, manic, and anxiety symptoms along with medication compliance</p>
+               <p class="text-center"><b>All in one simple app.</b></p>
+               <p class="text-center">View your mood history in a simple color-coded summary page.</p>
+               <p class="text-center">Observe your data in two-week increments with graphs in web and printable PDF form</p>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row d-flex bg-dark text-light rounded justify-content-between py-3 mx-0 text-center" id="codeinfo">
+            <div class="col-sm my-auto">
+               <p class="text-center lead"><b>MoodTracky</b> was coded in Python using the Flask framework</p>
+               <p class="text-center"><b>HTML with Bootsrap 4 and Jinja</b> was used for the design and templates</p>
+               <p class="text-center"><b>SQLite</b> provided the database backend</p>
+               <p class="text-center"><b>MatPlotLib</b> provided the capacity for graphically charting user-data</p>
+            </div>
+            <div class="col-sm my-auto">
+               <a href="moodtrackysummaryscreen.png" target="_blank">
+               <img class="img-fluid" src="moodtrackysummarythumb.png">
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="featurelist">
+            <div class="col-sm my-auto">
+               <a href="moodtrackyreportscreen.png" target="_blank">
+               <img class="img-fluid" src="moodtrackyreportthumb.png">
+               </a>
+            </div>
+            <div class="col-sm my-auto">
+               <p class="text-center lead"><b>MoodTracky feature-list:</b></p>
+               <ul class="list text-left">
+                  <li>Daily Tracking of any combination of mania, depression, anxiety, and medication compliance</li>
+                  <li>User account management with personalized settings, e-mail verification, and lost password functionality</li>
+                  <li>Survey for severity of depression, mania, and anxiety</li>
+                  <li>Capability to graph user mood data and view on the web or download printable PDF</li>
+                  <li>Display Affirmations from annthurium/affirmations API</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row d-flex bg-dark text-light rounded justify-content-between rounded py-3 mx-0 text-center" style="background: url(womansunflowersblurry.jpg) no-repeat;" id="youtubevideo">
+            <div class="col my-auto">
+               <figure>
+                  <div class="embed-responsive embed-responsive-16by9 mx-auto w-75">
+                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0N3ELCgP2cc" allowfullscreen></iframe>
+                     <figcaption>YouTube Demonstration Video</figcaption>
+                  </div>
+               </figure>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row d-flex justify-content-center">
+            <div class="container-fluid bg-light text-dark rounded py-3 mx-0 px-5 justify-content-center" id="reflection">
+               <p class="text-center lead"><b><u>Reflection</u></b></p>
+               <p class="text-center">As of 2022, MoodTracky is my largest, most advanced project, and the one I'm most proud of.
+                  Development/support is still ongoing. The site <del>is</del> was live, deployed to PythonAnywhere, and I greatly enjoyed providing the service to people.
+                  I learned an awful lot through developing MoodTracky, not just about Python and Flask, but about how to manage user accounts and data
+                  including authentication, password handling/hashing, and mostly how to present a polished service to the public.
+               </p>
+               <p class="text-center">I was the first registered user of MoodTracky and I still use it daily (well, almost daily!) myself
+                  to help manage my own mental health. I designed it first and foremost because I personally found most mood-tracking options
+                  to be long on features and short on ease-of-use. My own needs informed much of the early decision-making and design decisions.
+               </p>
+               <p class="text-center">As of 2022 I've continued to use MoodTracky as a tool for my own mental well-being, but I made the decision
+                  to at least, for the foreseeable future, no-longer leave it open to the public. With full-time education and other projects going 
+                  on I simply don't have the time to devote to running the project in a public format. I have interest in relaunching after I complete
+                  my degree at Northern Illinois University.
+               </p>
+            </div>
+         </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+   </body>
+   <footer class="bg-light text-center text-sm font-weight-light">
+      © 2022 website and all content created by Jake Fitzenreider<br>
+      All projects described are the work solely of Jake Fitzenreider unless otherwise noted<br>
+   </footer>
 </html>
