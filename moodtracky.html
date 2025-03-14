@@ -1,128 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-      <link rel="manifest" href="/site.webmanifest">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-      <title>MoodTracky by Jake Fitzenreider</title>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="collapsibleNavbar" data-toggle="collapse" data-target=".navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html"><img src="sociallogos/jlogo.png"></a>
-               </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="https://fitzentoaster.hashnode.dev/"><img src="sociallogos/hashnodelogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="http://www.twitter.com/fitzentoaster/"><img src="sociallogos/twitterlogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="https://www.linkedin.com/in/jacob-fitzenreider/"><img src="sociallogos/linkedinlogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="http://www.github.com/fitzentoaster/"><img src="sociallogos/githublogo.png"></a>
-               </li>               
-            </ul>
-         </div>
-      </nav>
-      <div class="d-flex align-items-center bg-light text-dark rounded border-bottom" id="top">
-         <div class="container-fluid justify-content-around">
-            <p class="display-3 text-center">Mood Tracky</p>
-            <p class="display-5 text-center">A Mood Tracking WebApp</p>
-            <p class="display-5 text-center">in Python/Flask</p>
-         </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>MoodTracky by Jake Fitzenreider</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-info navbar-dark sticky-top">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <img src="sociallogos/jlogo.png" alt="Home Button">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="d-flex align-items-center bg-light text-dark rounded border-bottom" id="top">
+      <div class="container-fluid justify-content-around">
+        <p class="display-3 text-center">Mood Tracky</p>
+        <p class="display-5 text-center">A Mood Tracking WebApp</p>
+        <p class="display-5 text-center">in Python/Flask</p>
       </div>
-      <div class="container-fluid px-0">
-         <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="overview">
-            <div class="col-sm my-auto">
-               <img class="img-fluid" src="moodtrackystatic/moodtrackyloginthumb.png">
-            </div>
-            <div class="col-sm my-auto">
-               <p class="text-center lead"><b>MoodTracky</b> is an easy-to-use, fully-featured mood and medication tracking app</p>
-               <p class="text-center">Track daily depressive, manic, and anxiety symptoms along with medication compliance</p>
-               <p class="text-center"><b>All in one simple app.</b></p>
-               <p class="text-center">View mood history in a simple color-coded summary page.</p>
-               <p class="text-center">Analyze data in two-week increments with graphs in web and printable PDF form</p>
-            </div>
-         </div>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="overview">
+        <div class="col-sm my-auto">
+          <img class="img-fluid" src="moodtrackystatic/moodtrackyloginthumb.png" alt="MoodTracky Login Page Screenshot">
+        </div>
+        <div class="col-sm my-auto">
+          <p class="text-center lead">
+            <b>MoodTracky</b> is an easy-to-use, fully-featured mood and medication tracking app
+          </p>
+          <p class="text-center">Track daily depressive, manic, and anxiety symptoms along with medication compliance</p>
+          <p class="text-center">
+            <b>All in one simple app.</b>
+          </p>
+          <p class="text-center">View mood history in a simple color-coded summary page.</p>
+          <p class="text-center">Analyze data in two-week increments with graphs in web and printable PDF form</p>
+        </div>
       </div>
-      <div class="container-fluid px-0">
-         <div class="row d-flex bg-dark text-light rounded justify-content-between py-3 mx-0 text-center" id="codeinfo">
-            <div class="col-sm my-auto">
-               <p class="text-center lead"><b>MoodTracky</b> was coded in Python using the Flask framework</p>
-               <p class="text-center"><b>HTML with Bootsrap 4 and Jinja</b> were used for the design and templates</p>
-               <p class="text-center"><b>SQLite</b> provided the database backend</p>
-               <p class="text-center"><b>Matplotlib</b> provided the capacity for graphically charting user-data</p>
-            </div>
-            <div class="col-sm my-auto">
-               <img class="img-fluid" src="moodtrackystatic/moodtrackysummarythumb.png">
-            </div>
-         </div>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="row d-flex bg-info text-light rounded justify-content-between py-3 mx-0 text-center" id="codeinfo">
+        <div class="col-sm my-auto">
+          <p class="text-center lead">
+            <b>MoodTracky</b> was coded in Python using the Flask framework
+          </p>
+          <p class="text-center">
+            <b>HTML with Bootsrap 4 and Jinja</b> were used for the design and templates
+          </p>
+          <p class="text-center">
+            <b>SQLite</b> provided the database backend
+          </p>
+          <p class="text-center">
+            <b>Matplotlib</b> provided the capacity for graphically charting user-data
+          </p>
+        </div>
+        <div class="col-sm my-auto">
+          <img class="img-fluid" src="moodtrackystatic/moodtrackysummarythumb.png" alt="MoodTracky Summary Page Screenshot">
+        </div>
       </div>
-      <div class="container-fluid px-0">
-         <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="featurelist">
-            <div class="col-sm my-auto">
-               <img class="img-fluid" src="moodtrackystatic/moodtrackyreportthumb.png">
-            </div>
-            <div class="col-sm my-auto">
-               <p class="text-center lead"><b>MoodTracky feature-list:</b></p>
-               <ul class="list text-left">
-                  <li>Daily Tracking of any combination of mania, depression, anxiety, and medication compliance</li>
-                  <li>User account management with personalized settings, e-mail verification, and lost password functionality</li>
-                  <li>Survey for severity of depression, mania, and anxiety</li>
-                  <li>Capability to graph user mood data and view on the web or download printable PDF</li>
-                  <li>Display Affirmations from annthurium/affirmations API</li>
-               </ul>
-            </div>
-         </div>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="featurelist">
+        <div class="col-sm my-auto">
+          <img class="img-fluid" src="moodtrackystatic/moodtrackyreportthumb.png" alt="MoodTracky Report Page Screenshot">
+        </div>
+        <div class="col-sm my-auto">
+          <p class="text-center lead">
+            <b>MoodTracky feature-list:</b>
+          </p>
+          <ul class="list text-left">
+            <li>Daily Tracking of any combination of mania, depression, anxiety, and medication compliance</li>
+            <li>User account management with personalized settings, e-mail verification, and lost password functionality</li>
+            <li>Survey for severity of depression, mania, and anxiety</li>
+            <li>Capability to graph user mood data and view on the web or download printable PDF</li>
+            <li>Display Affirmations from annthurium/affirmations API</li>
+          </ul>
+        </div>
       </div>
-      <div class="container-fluid px-0">
-         <div class="row d-flex bg-dark text-light rounded justify-content-between rounded py-3 mx-0 text-center" style="background: url(moodtrackystatic/womansunflowersblurry.jpg) no-repeat;" id="youtubevideo">
-            <div class="col my-auto">
-               <figure>
-                  <div class="embed-responsive embed-responsive-16by9 mx-auto w-75">
-                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0N3ELCgP2cc" allowfullscreen></iframe>
-                     <figcaption>YouTube Demonstration Video</figcaption>
-                  </div>
-               </figure>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="row d-flex bg-info text-light rounded justify-content-between rounded py-3 mx-0 text-center" style="background: url(moodtrackystatic/womansunflowersblurry.jpg) no-repeat;" id="youtubevideo">
+        <div class="col my-auto">
+          <figure>
+            <div class="embed-responsive embed-responsive-16by9 mx-auto w-75">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0N3ELCgP2cc" allowfullscreen></iframe>
             </div>
-         </div>
+          </figure>
+          <p>YouTube demonstration video</p>
+        </div>
       </div>
-      <div class="container-fluid px-0">
-         <div class="container-fluid bg-light text-dark rounded py-3 mx-0 px-5 justify-content-center" id="reflection">
-            <p class="text-center lead"><b><u>Reflection</u></b></p>
-            <p class="text-center">As of this writing, <b>MoodTracky</b> stands as my most ambitious and rewarding project to date. Formerly deployed
-               to <a href="http://pythonanywhere.com">PythonAnywhere</a>, this webapp is currently on hiatus. Throughout the process, I gained extensive knowledge
-               not only in Python and Flask but also in managing user accounts, authentication, data security, and other related aspects that are key in 
-               creating a polished service.
-            </p>
-            <p class="text-center">I was the first registered user of MoodTracky and I still use it daily (well, almost daily!) to support my mental health.
-               The design was primarily driven by my own experiences; I found many mood-tracking tools overwhelming and lacking in user-friendliness. This personal
-               insight significantly influenced my design philosophy.
-            </p>
-            <p class="text-center">While I have chosen to limit public access to <b>MoodTracky</b> for the time being due to my full-time education and other commitments, 
-               I remain passionate about its potential. I plan to relaunch the platform after completing my degree at Northern Illinois University with hopes
-               of providing a valuable resource for others seeking mental health and wellness support.
-            </p>
-         </div>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="container-fluid bg-light text-dark rounded py-3 mx-0 px-5 justify-content-center" id="reflection">
+        <p class="text-center lead">
+          <b>
+            <u>Reflection</u>
+          </b>
+        </p>
+        <p class="text-center">As of this writing, <b>MoodTracky</b> stands as my most ambitious and rewarding project to date. Formerly deployed to <a href="http://pythonanywhere.com">PythonAnywhere</a>, this webapp is currently on hiatus. Throughout the process, I gained extensive knowledge not only in Python and Flask but also in managing user accounts, authentication, data security, and other related aspects of creating a polished service. </p>
+        <p class="text-center">I was the first registered user of MoodTracky and I still use it daily (well, almost daily!) to support my mental health. The design was primarily driven by my own experiences; I found many mood-tracking tools overwhelming and lacking in user-friendliness. This personal insight significantly influenced my design philosophy. </p>
+        <p class="text-center">While I have chosen to limit public access to <b>MoodTracky</b> for the time being, I remain passionate about its potential. I plan to relaunch the platform at some point in the future. </p>
       </div>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-   </body>
-   <footer class="bg-dark text-light text-center text-sm font-weight-light">
-      <small>© 2025 website and all content created by Jake Fitzenreider<br>
-             All projects described are the work solely of Jake Fitzenreider unless otherwise noted<br></small>
-   </footer>
+    </div>
+    <footer class="bg-info text-light text-center text-sm font-weight-light">
+      <small id="copyright">© <span id="year"></span> website and all content created by Jake Fitzenreider <br> All projects described are the work solely of Jake Fitzenreider unless otherwise noted <br>
+      </small>
+    </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
 </html>

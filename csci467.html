@@ -1,110 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-      <link rel="manifest" href="/site.webmanifest">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-      <title>CSCI-467 Project by Jake Fitzenreider and Group 2b</title>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="collapsibleNavbar" data-toggle="collapse" data-target=".navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html"><img src="sociallogos/jlogo.png"></a>
-               </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="https://fitzentoaster.hashnode.dev/"><img src="sociallogos/hashnodelogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="http://www.twitter.com/fitzentoaster/"><img src="sociallogos/twitterlogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="https://www.linkedin.com/in/jacob-fitzenreider/"><img src="sociallogos/linkedinlogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="http://www.github.com/fitzentoaster/"><img src="sociallogos/githublogo.png"></a>
-               </li>               
-            </ul>
-         </div>
-      </nav>
-      <div class="container-fluid px-0">
-         <div class="d-flex align-items-center bg-light text-dark rounded border-bottom" id="top">
-            <div class="container-fluid justify-content-around">
-               <p class="display-3 text-center">CSCI467 Quote System</p>
-               <p class="display-5 text-center">A full-featured WebApp</p>
-               <p class="display-5 text-center">in Python/Flask, as a group project for NIU</p>
-            </div>
-         </div>
-      </div>
-      <div class="container-fluid px-0">
-         <div class="row d-flex bg-dark text-light rounded justify-content-between py-3 mx-0 text-center" id="overview">
-            <div class="col-sm my-auto">
-               <img class="img-fluid" src="csci467static/CSCI467_pic1.png">
-            </div>
-            <div class="col-sm my-auto">
-               <p class="text-center lead"><b>CSCI467 Project 2B</b> is a quote management system for a fictional service/repair company</p>
-               <p class="text-center">Four interfaces to take the process all the way from quoting a customer to converting the quote</p>
-               <p class="text-center"><b>Works with a legacy database and external API as well as maintaining it's own database</b></p>
-            </div>
-         </div>
-      </div>
-      <div class="container-fluid px-0">
-         <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="codeinfo">
-            <div class="col-sm my-auto">
-               <p class="text-center lead"><b>This Project</b> was a semester-long project for CSCI467 - Software Engineering at NIU</p>
-
-                <p class="text-center lead"><b>Four Interfaces:</b></p>
-                <ul class="list text-left">
-                   <li>Associates: to create and manage new quotes</li>
-                   <li>Sanction: for in-house employees to sanction quotes and apply discounts</li>
-                   <li>Convert: to work with the external API to convert quotes to purchase orders and finalize</li>
-                   <li>Admin: to manage associates and quotes as an administrator</li>
-                </ul>
-            </div>
-            <div class="col-sm my-auto">
-               <img class="img-fluid" src="csci467static/CSCI467_pic2.png">
-            </div>
-         </div>
-      </div>
-      <div class="container-fluid px-0">
-        <div class="row d-flex bg-dark text-light rounded justify-content-between rounded py-3 mx-0 text-center" id="youtubevideo">
-           <div class="col my-auto">
-              <figure>
-                 <div class="embed-responsive embed-responsive-16by9 mx-auto w-75">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q_EU3e18DaI?si=KuGZIuesobRAeU11" allowfullscreen></iframe>
-                    <figcaption>YouTube Demonstration Video</figcaption>
-                 </div>
-              </figure>
-           </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>CSCI-467 Project by Jake Fitzenreider and Group 2b</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-info navbar-dark sticky-top">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <img src="sociallogos/jlogo.png" alt="Home Button">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid px-0">
+      <div class="d-flex align-items-center bg-light text-dark rounded border-bottom" id="top">
+        <div class="container-fluid justify-content-around">
+          <p class="display-3 text-center">CSCI467 Quote System</p>
+          <p class="display-5 text-center">A full-featured WebApp</p>
+          <p class="display-5 text-center">in Python/Flask, as a group project for NIU</p>
         </div>
-     </div>
-      <div class="container-fluid px-0">
-         <div class="container-fluid bg-light text-dark rounded py-3 mx-0 px-5 justify-content-center" id="reflection">
-            <p class="text-center lead"><b><u>Reflection</u></b></p>
-            <p class="text-center">This project constituted the majority of my grade in a 400-level Software Engineering course. My four-person team was tasked with developing a complete application from the ground up, 
-                                   using any software stack we liked to meet the functional requirements provided by our professor, representing a fictional company.
-                                   Our responsibilities included drafting the design document, outlining our implementation strategy, and architecting the database. 
-                                   I took the initiative to lead the team by selecting the technology stack, establishing the initial code structure, and delegating tasks among team members.</p>
-            <p class="text-center">This experience significantly enhanced my skills in collaborative software design and development. I learned the importance of effective communication, 
-                                   time management, and best practices for code sharing and version control using GitHub.
-                                   I am proud of the work we accomplished together which culminated in a final product that earned a perfect score of <i>100/100</i></p>                               
-         </div>
       </div>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-   </body>
-   <footer class="bg-dark text-light text-center text-sm font-weight-light">
-      <small>© 2025 website and all content created by Jake Fitzenreider<br>
-             All projects described are the work solely of Jake Fitzenreider unless otherwise noted<br></small>
-   </footer>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="row d-flex bg-info text-light rounded justify-content-between py-3 mx-0 text-center" id="overview">
+        <div class="col-sm my-auto">
+          <img class="img-fluid" src="csci467static/CSCI467_pic1.png" alt="CSCI467 Project 2B screenshot">
+        </div>
+        <div class="col-sm my-auto">
+          <p class="text-center lead">
+            <b>CSCI467 Project 2B</b> is a quote management system for a fictional service/repair company
+          </p>
+          <p class="text-center">Four interfaces to take the process all the way from quoting a customer to converting the quote</p>
+          <p class="text-center">
+            <b>Works with a legacy database and external API as well as maintaining its own database</b>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="codeinfo">
+        <div class="col-sm my-auto">
+          <p class="text-center lead">
+            <b>This Project</b> was a semester-long project for CSCI467 - Software Engineering at NIU
+          </p>
+          <p class="text-center lead">
+            <b>Four Interfaces:</b>
+          </p>
+          <ul class="list text-left">
+            <li>Associates: to create and manage new quotes</li>
+            <li>Sanction: for in-house employees to sanction quotes and apply discounts</li>
+            <li>Convert: to work with the external API to convert quotes to purchase orders and finalize</li>
+            <li>Admin: to manage associates and quotes as an administrator</li>
+          </ul>
+        </div>
+        <div class="col-sm my-auto">
+          <img class="img-fluid" src="csci467static/CSCI467_pic2.png" alt="CSCI467 Project 2B screenshot">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="row d-flex bg-info text-light rounded justify-content-between rounded py-3 mx-0 text-center" id="youtubevideo">
+        <div class="col my-auto">
+          <figure>
+            <div class="embed-responsive embed-responsive-16by9 mx-auto w-75">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q_EU3e18DaI?si=KuGZIuesobRAeU11" allowfullscreen></iframe>
+            </div>
+          </figure>
+          <p>YouTube Demonstration Video</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="container-fluid bg-light text-dark rounded py-3 mx-0 px-5 justify-content-center" id="reflection">
+        <p class="text-center lead">
+          <b>
+            <u>Reflection</u>
+          </b>
+        </p>
+        <p class="text-center">This project constituted the majority of my grade in a 400-level Software Engineering course. My four-person team was tasked with developing a complete application from the ground up, using any software stack we liked to meet the functional requirements provided by our professor, representing the "needs" of a fictional company. Group responsibilities included drafting the design document, outlining our implementation strategy, and architecting the database. I took the initiative to lead the team by selecting the technology stack, establishing the initial code structure, and delegating tasks among team members.</p>
+        <p class="text-center">This experience significantly enhanced my skills in collaborative software design and development. I learned the importance of effective communication, time management, and best practices for code sharing and version control using GitHub. I am proud of the work we accomplished together in this team setting.</p>
+      </div>
+    </div>
+    <footer class="bg-info text-light text-center text-sm font-weight-light">
+      <small id="copyright">© <span id="year"></span> website and all content created by Jake Fitzenreider <br> All projects described are the work solely of Jake Fitzenreider unless otherwise noted <br>
+      </small>
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
 </html>

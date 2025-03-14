@@ -1,124 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-      <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-      <link rel="manifest" href="/site.webmanifest">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-      <title>Home - Jake Fitzenreider</title>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="collapsibleNavbar" data-toggle="collapse" data-target=".navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="#splash"><img src="sociallogos/jlogo.png"></a>
-               </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="https://fitzentoaster.hashnode.dev/"><img src="sociallogos/hashnodelogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="http://www.twitter.com/fitzentoaster/"><img src="sociallogos/twitterlogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="https://www.linkedin.com/in/jacob-fitzenreider/"><img src="sociallogos/linkedinlogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="http://www.github.com/fitzentoaster/"><img src="sociallogos/githublogo.png"></a>
-               </li>               
-            </ul>
-         </div>
-      </nav>
-      <div class="d-flex align-items-center vh-100 bg-dark text-light border-bottom" id="splash">
-         <div class="container-fluid align-items-center">
-            <p class="display-1 text-center">Hi, I'm <b>Jake</b></p>
-            <br>
-            <div class="text-center dropdown">
-               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <div class="img"><img src="sociallogos/arrowdown.png"></div>
-               </button>
-               <div class="dropdown-menu" aria-labelledby="dropdown">
-                  <a class="dropdown-item" href="#splash">Home</a>
-                  <a class="dropdown-item" href="#projects">Projects</a>
-                  <a class="dropdown-item" href="#about">About</a>
-               </div>
-            </div>
-         </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Jake's Portfolio</title>
+  </head>
+  <body>
+    <div class="d-flex align-items-center vh-100 bg-info text-light border-bottom" id="splash">
+      <div class="container-fluid align-items-center">
+        <p class="display-2 text-center animate__animated animate__rubberBand">Hi, I'm <b>Jake</b>
+        </p>
+        <br>
+        <p class="display-4 text-center animate__animated animate__rubberBand">Welcome to my portfolio</p>
+        <br>
+        <p class="display-2 text-center animate__animated animate__rubberBand"><a href="#about">⬇️</a></p>
       </div>
-      <div class="container-fluid bg-light text-dark text-center border-top border-bottom" style="margin-top: -75px; padding-bottom: 75px;" id="projects">
-         <p class="h2 text-center mb-4"><u>Larger Projects</u></p>
-         <div class="d-flex flex-column">
-            <div class="d-flex justify-content-around mb-4">
-               <figure class="figure mx-2">
-                  <a href="moodtracky.html"><img src="thumbnails/moodtrackythumbnail.png" alt="MoodTracky" class="figure-img img-fluid rounded-circle shadow"></a>
-                  <figcaption class="figure-caption text-center">MoodTracky<br>a mood-tracking WebApp in Python/Flask</figcaption>
-               </figure>
-               <figure class="figure mx-2">
-                  <a href="splonking.html"><img src="thumbnails/splonkingtitlescreenthumbnail.png" alt="Splonking" class="figure-img img-fluid rounded-circle shadow"></a>
-                  <figcaption class="figure-caption text-center">Splonking<br>a retro-inspired game in C++</figcaption>
-               </figure>
-            </div>
-            <div class="d-flex justify-content-around mb-4">  
-               <figure class="figure mx-2">
-                  <a href="csci467.html"><img src="thumbnails/csci467thumbnail.png" alt="CSCI467 Project" class="figure-img img-fluid rounded-circle shadow"></a>
-                  <figcaption class="figure-caption text-center">CSCI467 Project<br>a quote-management system in Python/Flask</figcaption>
-               </figure>  
-               <figure class="figure mx-2">
-                  <a href="marie.html"><img src="thumbnails/mariethumbnail.png" alt="MARIE-Sim" class="figure-img img-fluid rounded-circle shadow"></a>
-                  <figcaption class="figure-caption text-center">MARIESim<br>a Simulator and Assembly language for MARIE in C++</figcaption>
-               </figure>
-            </div>
-         </div>
+    </div>
+    <div class="container-fluid bg-light text-dark rounded mx-0 justify-content-center" style="margin-top: -50px; padding-bottom: 75px;" id="about">
+      <div class="row d-flex justify-content-center">
+        <p class="text-center">
+          <br>I'm a software developer based in the Chicagoland area with a strong passion for coding and problem solving. I earned my BS in Computer Science with a Mobile Programming Certificate from Northern Illinois University in December 2024. Over the course of my education I focused my efforts on C++ and Python, while also gaining experience with JavaScript, Java, IBM Assembler, and others through various courses and projects.
+        </p>
+        <p class="text-center">Before transitioning into tech, I had diverse careers as a professional poker player and as a touring musician and music educator. This unique background enriches my approach to development and allows me to tackle challenges from a unique persepctive.</p>
+        <p class="text-center">Check out my <a href="info/JacobFitzenreiderResume.pdf">
+            <b>resume</b>
+          </a> and feel free to shoot me an email at <br>jake [dot] fitzenreider [at] gmail [dot] com. </p>
       </div>
-      <div class="container-fluid bg-dark text-light text-center border-top border-bottom" style="margin-top: -75px; padding-bottom: 75px" id="projects">
-         <p class="h2 text-center mb-4"><u>Other Projects</u></p>
-         <div class="d-flex flex-column">
-            <div class="d-flex justify-content-around mb-4">
-               <figure class="figure mx-2">
-                  <a href="smuhley.html"><img src="thumbnails/smuhleythumbnail.png" alt="Smuhley!" class="figure-img img-fluid rounded-circle shadow"></a>
-                  <figcaption class="figure-caption text-light text-center">Smuhley!<br>an Android arcade style game in GM:S</figcaption>
-               </figure>
-               <figure class="figure mx-2">
-                  <a href="suck4luck.html"><img src="thumbnails/suck4luckthumbnail.png" alt="Suck4Luck" class="figure-img img-fluid rounded-circle shadow"></a>
-                  <figcaption class="figure-caption text-light text-center">Suck4Luck<br>a reverse Fantasy Football game in Java and PHP</figcaption>
-               </figure>
-            </div>
-         </div>
-         <div class="d-flex justify-content-around mb-4">
-            <figure class="figure mx-2">
-               <a href="jsgol.html"><img src="thumbnails/jsgolthumbnail.png" alt="JSGame of Life" class="figure-img img-fluid rounded-circle shadow"></a>
-               <figcaption class="figure-caption text-light text-center">JSGoL<br>a Customizeable Conway's Game of Life in Javascript</figcaption>
-            </figure>
-            <figure class="figure mx-2">
-               <a href="doit.html"><img src="thumbnails/doitthumbnail.png" alt="doit Todo list" class="figure-img img-fluid rounded-circle shadow"></a>
-               <figcaption class="figure-caption text-light text-center">doit<br>a functional To-Do List in React.js</figcaption>
-            </figure>
-         </div>
+      <p class="display-4 text-center"><a href="#larger_projects">⬇️</a></p>
+    </div>
+    <div class="container-fluid bg-info text-light text-center border-top border-bottom" id="larger_projects">
+      <p class="h2 text-center mb-4">
+        <u>Larger Projects</u>
+      </p>
+      <div class="d-flex flex-column">
+        <div class="d-flex justify-content-around mb-4">
+          <figure class="figure mx-2">
+            <a href="moodtracky.html">
+              <img src="thumbnails/moodtrackythumbnail.png" alt="MoodTracky" class="figure-img img-fluid rounded-circle shadow">
+            </a>
+            <figcaption class="figure-caption text-center text-light">
+              <u>MoodTracky</u>
+              <br>a mood-tracking WebApp in Python/Flask
+            </figcaption>
+          </figure>
+          <figure class="figure mx-2">
+            <a href="splonking.html">
+              <img src="thumbnails/splonkingtitlescreenthumbnail.png" alt="Splonking" class="figure-img img-fluid rounded-circle shadow">
+            </a>
+            <figcaption class="figure-caption text-center text-light">
+              <u>Splonking</u>
+              <br>a retro-inspired game in C++
+            </figcaption>
+          </figure>
+        </div>
+        <div class="d-flex justify-content-around mb-4">
+          <figure class="figure mx-2">
+            <a href="csci467.html">
+              <img src="thumbnails/csci467thumbnail.png" alt="CSCI467 Project" class="figure-img img-fluid rounded-circle shadow">
+            </a>
+            <figcaption class="figure-caption text-center text-light">
+              <u>CSCI467 Project</u>
+              <br>a quote-management system in Python/Flask
+            </figcaption>
+          </figure>
+          <figure class="figure mx-2">
+            <a href="marie.html">
+              <img src="thumbnails/mariethumbnail.png" alt="MARIE-Sim" class="figure-img img-fluid rounded-circle shadow">
+            </a>
+            <figcaption class="figure-caption text-center text-light">
+              <u>MARIESim</u>
+              <br>a Simulator and Assembly language for MARIE in C++
+            </figcaption>
+          </figure>
+        </div>
       </div>
-      <div class="container-fluid bg-light text-dark rounded mx-0 justify-content-center" id="about">
-         <div class="row d-flex justify-content-center">
-            <p class="text-center"><br>I'm a software developer based in the Chicagoland area with a strong passion for coding and problem solving. I earned my BS in Computer Science with a Mobile Programming Certificate
-               from Northern Illinois University in 2024. 
-               Over the course of my education I focused my efforts on C++ and Python, while also gaining experience with JavaScript, Java, IBM Assembler, and others through various courses and projects.</p>
-            <p class="text-center">Before transitioning into tech, I had diverse careers as a professional poker player and as a touring musician and music educator. This unique background
-               enriches my approach to development and allows me to tackle challenges from a fresh perspective and apply creative solutions. I thrive in 
-               collaborative environments, enjoy sharing knowledge with my peers, and am always eager to connect with others in the tech community!</p>
-            <p class="text-center">Check out my <a href="info/JacobFitzenreiderResume.pdf"><b>resume</b></a> and social links above, and feel free to shoot me an email at <br>jake [dot] fitzenreider [at] gmail [dot] com.</p>
-         </div>
+      <p class="display-4 text-center"><a href="#other_projects">⬇️</a></p>
+    </div>
+    <div class="container-fluid bg-light text-dark text-center border-top border-bottom" id="other_projects">
+      <p class="h2 text-center mb-4">
+        <u>Other Projects</u>
+      </p>
+      <div class="d-flex flex-column">
+        <div class="d-flex justify-content-around mb-4">
+          <figure class="figure mx-2">
+            <a href="smuhley.html">
+              <img src="thumbnails/smuhleythumbnail.png" alt="Smuhley!" class="figure-img img-fluid rounded-circle shadow">
+            </a>
+            <figcaption class="figure-caption text-center">
+              <u>Smuhley!</u>
+              <br>an Android arcade style game in GM:S
+            </figcaption>
+          </figure>
+          <figure class="figure mx-2">
+            <a href="suck4luck.html">
+              <img src="thumbnails/suck4luckthumbnail.png" alt="Suck4Luck" class="figure-img img-fluid rounded-circle shadow">
+            </a>
+            <figcaption class="figure-caption text-center">
+              <u>Suck4Luck</u>
+              <br>a reverse Fantasy Football game in Java and PHP
+            </figcaption>
+          </figure>
+        </div>
       </div>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-   </body>
-   <footer class="bg-dark text-light text-center text-sm font-weight-light">
-      <small>© 2025 website and all content created by Jake Fitzenreider<br>
-             All projects described are the work solely of Jake Fitzenreider unless otherwise noted<br></small>
-   </footer>
+      <div class="d-flex justify-content-around mb-4">
+        <figure class="figure mx-2">
+          <a href="jsgol.html">
+            <img src="thumbnails/jsgolthumbnail.png" alt="JSGame of Life" class="figure-img img-fluid rounded-circle shadow">
+          </a>
+          <figcaption class="figure-caption text-center">
+            <u>JSGoL</u>
+            <br>a Customizeable Game of Life in Javascript
+          </figcaption>
+        </figure>
+        <figure class="figure mx-2">
+          <a href="doit.html">
+            <img src="thumbnails/doitthumbnail.png" alt="doit Todo list" class="figure-img img-fluid rounded-circle shadow">
+          </a>
+          <figcaption class="figure-caption text-center">
+            <u>doit</u>
+            <br>a functional To-Do List in React.js
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <footer class="bg-info text-light text-center text-sm font-weight-light">
+      <small id="copyright">© <span id="year"></span> website and all content created by Jake Fitzenreider <br> All projects described are the work solely of Jake Fitzenreider unless otherwise noted <br>
+      </small>
+    </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -1,94 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-      <link rel="manifest" href="/site.webmanifest">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-      <title>doit by Jake Fitzenreider</title>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="collapsibleNavbar" data-toggle="collapse" data-target=".navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html"><img src="sociallogos/jlogo.png"></a>
-               </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="https://fitzentoaster.hashnode.dev/"><img src="sociallogos/hashnodelogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="http://www.twitter.com/fitzentoaster/"><img src="sociallogos/twitterlogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="https://www.linkedin.com/in/jacob-fitzenreider/"><img src="sociallogos/linkedinlogo.png"></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="http://www.github.com/fitzentoaster/"><img src="sociallogos/githublogo.png"></a>
-               </li>               
-            </ul>
-         </div>
-      </nav>
-      <div class="d-flex align-items-center bg-light text-dark rounded border-bottom" id="top">
-         <div class="container-fluid justify-content-around">
-            <p class="display-3 text-center">doit</p>
-            <p class="display-5 text-center">A simple To-Do List</p>
-            <p class="display-5 text-center">in Javascript/React.js</p>
-         </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>doit by Jake Fitzenreider</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-info navbar-dark sticky-top">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <img src="sociallogos/jlogo.png" alt="Home Button">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="d-flex align-items-center bg-light text-dark rounded border-bottom" id="top">
+      <div class="container-fluid justify-content-around">
+        <p class="display-3 text-center">doit</p>
+        <p class="display-5 text-center">A simple To-Do List</p>
+        <p class="display-5 text-center">in Javascript/React.js</p>
       </div>
-      <div class="container-fluid px-0">
-         <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="overview">
-            <div class="col-sm my-auto">
-               <img class="img-fluid" src="doitstatic/doit1.png">
-            </div>
-            <div class="col-sm my-auto">
-               <p class="text-center lead"><b>doit</b> is a simple to-do list implemented in React.js</p>
-               <p class="text-center">Add stuff, subtract stuff, cross stuff off, and sort the stuff all sorts of ways!</p>
-               <p class="text-center"><b>Just doit</b></p>
-
-            </div>
-         </div>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="row d-flex bg-light text-dark rounded justify-content-between py-3 mx-0 text-center" id="overview">
+        <div class="col-sm my-auto">
+          <img class="img-fluid" src="doitstatic/doit1.png" alt="doit Screenshot">
+        </div>
+        <div class="col-sm my-auto">
+          <p class="text-center lead">
+            <b>doit</b> is a simple to-do list implemented in React.js
+          </p>
+          <p class="text-center">Add stuff, subtract stuff, cross stuff off, and sort the stuff all sorts of ways!</p>
+          <p class="text-center">
+            <b>Just doit</b>
+          </p>
+        </div>
       </div>
-      <div class="container-fluid px-0">
-         <div class="row d-flex bg-dark text-light rounded justify-content-between py-3 mx-0 text-center" id="codeinfo">
-            <div class="col-sm my-auto">
-               <p class="text-center lead"><b>doit</b> was developed in Javascript and specifically React.js</p>
-               <p class="text-center"> as a learning tool to help me work on my react.js skills </p>
-            </div>
-            <div class="col-sm my-auto">
-               <img class="img-fluid" src="doitstatic/doit2.png">
-            </div>
-         </div>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="row d-flex bg-info text-light rounded justify-content-between py-3 mx-0 text-center" id="codeinfo">
+        <div class="col-sm my-auto">
+          <p class="text-center lead">
+            <b>doit</b> was developed in Javascript and specifically React.js
+          </p>
+          <p class="text-center"> as a learning tool to help me work on my react.js skills </p>
+        </div>
+        <div class="col-sm my-auto">
+          <img class="img-fluid" src="doitstatic/doit2.png" alt="doit Screenshot">
+        </div>
       </div>
-      
-      <div class="container-fluid px-0">
-         <div class="container-fluid bg-light text-dark rounded py-3 mx-0 px-5 justify-content-center" id="reflection">
-            <p class="text-center lead"><b><u>Reflection</u></b></p>
-            <p class="text-center">Repo Available: <a href="https://github.com/Fitzentoaster/doit-todolist"> Click Here </a></p>
-            <p class="text-center">Try it out: <a href="https://doit-react-todolist.netlify.app/"> Click Here </a></p>
-            <p class="text-center"><b>doit</b>, created in 2023, was created to help me become more proficient in JavaScript, specifically with React.js in preparation for
-               larger future projects. This hands-on experience allowed me to explore the framework's capabilities and best practices.
-               The application utilizes local storage to manage user lists, ensuring data persistence on the user's machine. Additionally, it offers various sorting
-               options for the items to enhance usability and functionality.
-            </p>
-            <p class="text-center">This project not only helped get me acquainted with React.js but strengthened my JavaScript skills as a whole, providing a solid foundation for 
-               tackling more complex applications if I decide to work more with React.js in the future.
-            </p>
-         </div>
+    </div>
+    <div class="container-fluid px-0">
+      <div class="container-fluid bg-light text-dark rounded py-3 mx-0 px-5 justify-content-center" id="reflection">
+        <p class="text-center lead">
+          <b>
+            <u>Reflection</u>
+          </b>
+        </p>
+        <p class="text-center">Repo Available: <a href="https://github.com/Fitzentoaster/doit-todolist"> Click Here </a>
+        </p>
+        <p class="text-center">Try it out: <a href="https://doit-react-todolist.netlify.app/"> Click Here </a>
+        </p>
+        <p class="text-center">
+          <b>doit</b>, created in 2023, was created to help me become more proficient in JavaScript, specifically with React.js in preparation for larger future projects. This hands-on experience allowed me to explore the framework's capabilities and best practices. The application utilizes local storage to manage user lists, ensuring data persistence on the user's machine. Additionally, it offers various sorting options for the items to enhance usability and functionality.
+        </p>
+        <p class="text-center">This project not only helped get me acquainted with React.js but strengthened my JavaScript skills as a whole, providing a solid foundation for tackling more complex applications if I decide to work more with React.js in the future. </p>
       </div>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-   </body>
-   <footer class="bg-dark text-light text-center text-sm font-weight-light">
-      <small>© 2025 website and all content created by Jake Fitzenreider<br>
-             All projects described are the work solely of Jake Fitzenreider unless otherwise noted<br></small>
-   </footer>
+    </div>
+    <footer class="bg-info text-light text-center text-sm font-weight-light">
+      <small id="copyright">© <span id="year"></span> website and all content created by Jake Fitzenreider <br> All projects described are the work solely of Jake Fitzenreider unless otherwise noted <br>
+      </small>
+    </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>  
 </html>
